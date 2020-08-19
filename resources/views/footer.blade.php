@@ -11,7 +11,7 @@
           <div class="form-group">
             <input type="email" class="form-control" placeholder="Email" id="emailNewsletter">
           </div>
-          <button class="btn btn-xs" type="submit">Submit</button>
+          <button class="btn btn-xs btn-newsletter" type="submit">Cadastrar</button>
         </form>
       </div>
       <div class="col-sm-4 pt-4 newsletter-img">
