@@ -9,3 +9,6 @@ Projeto ainda em desenvolvimento
 
 #### Layout do projeto: 
 Figma: https://www.figma.com/file/ICFeQAfUOEHfuEBe7dAKao/Blog-F%C3%AAnix-Hookah?node-id=1%3A2
+
+#### Preview
+Demo v0.5: http://laravel.atlasware.com.br
