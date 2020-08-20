@@ -12,3 +12,23 @@ Figma: https://www.figma.com/file/ICFeQAfUOEHfuEBe7dAKao/Blog-F%C3%AAnix-Hookah?
 
 #### Preview
 Demo v0.5: http://laravel.atlasware.com.br
+
+#### Histórico de lançamentos
+
+* 0.0.1
+    * ADD: Inclusão e implementação do Layout
+    * ADD: Estruturação do grid
+    * UPDATE: Responsividade do Menu Topo
+    * UPDATE: Estilização da estrutura
+* 0.0.8
+    * Update: Menu responsivo, correção do logo e ajuste de espaçamento no mobile
+    * ADD: Primeiro modelo de caixa de noticias
+    
+    
+## Envolvidos no desenvolvimento
+
+Jorge Henrique – [@LinkedIn](https://www.linkedin.com/in/jorge-henrique-baptista/) – jorgehenrique@live.com
+
+The MIT License (MIT)
+
+Copyright (c) 2020 covid19boletim
