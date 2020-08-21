@@ -1,5 +1,6 @@
 body {
-  font-size: .875rem;
+  font-size: 80%;
+  background:#fff;
 }
 
 .feather {
@@ -30,13 +31,13 @@ body {
 
 .sidebar-sticky {
   position: relative;
+  background:#f3f3f3;
   top: 0;
   height: calc(100vh - 48px);
   padding-top: .5rem;
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
 }
-
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sidebar-sticky {
     position: -webkit-sticky;
@@ -45,19 +46,25 @@ body {
 }
 
 .sidebar .nav-link {
-  font-weight: 500;
-  color: #333;
-}
+  font-weight: 400;
+  color: #343A40;
+  display:flex;
+  align-items: center;
+  font-size:1rem;
 
+}
+.sidebar .nav-link span{
+  margin-right:10px;
+}
 .sidebar .nav-link .feather {
-  margin-right: 4px;
   color: #999;
 }
 
 .sidebar .nav-link.active {
-  color: #007bff;
+  background-color:rgba(222, 226, 230, 0.5);
+  font-weight: 500;
+  color: #133340;
 }
-
 .sidebar .nav-link:hover .feather,
 .sidebar .nav-link.active .feather {
   color: inherit;
@@ -100,4 +107,33 @@ body {
 .form-control-dark:focus {
   border-color: transparent;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+.btn-size{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:8px;
+}
+.btn-size, .btn-size > span{
+  font-size:1.1rem;
+  color:#fff;
+}
+.btn-new, .btn-size > span{
+  font-size:0.9rem;
+}
+.btn-new{
+  padding:5px 20px;
+}
+.btn-submit{
+  width:50%;
+  padding:5px 0px;
+}
+.title_dash{
+  font: 500 1.8rem Poppins;
+  padding-bottom:10px;
+  margin-bottom:20px;
+  border-bottom:1px solid #DEE2E6;
+}
+table{
+  font-size:1.1rem;
 }
