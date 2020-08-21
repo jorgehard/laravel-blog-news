@@ -1,4 +1,8 @@
-<p align="center"><img src="public/assets/images/fenix-hookah.svg" width="180"></p>
+<p align="center">
+    <img src="/public/assets/images/fenix-hookah.svg"
+     alt="Fenix Logo"
+     width="180px" />
+</p>
 
 ## About Project
 > Projeto de um blog pessoal com painel administrativo para postagem de noticias, inspirado na tematica Hookah
