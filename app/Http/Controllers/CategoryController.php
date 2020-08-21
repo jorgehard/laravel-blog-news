@@ -34,7 +34,20 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $mensagens = [
+            'min' => 'É necessário no minimo 4 caracteres no nome.',
+            'max' => 'Limite de 100 caracteres atingido.',
+            'required' => 'O campo não pode estar em branco.',
+        ];
+        $request->validate([
+            'category' => 'required|min:4|max:100',
+            'keywords' => 'required|min:4|max:200'
+        ], $mensagens);
+        $category = new Category();
+        $category->name = $request->input('category');
+        $category->keywords = $request->input('keywords');
+        $category->save();
+        return redirect()->route('category');
     }
 
     /**
@@ -79,6 +92,6 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        return 'deletado';
     }
 }

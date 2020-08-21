@@ -108,9 +108,15 @@ body {
   border-color: transparent;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
 }
-
+.btn-size{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:8px;
+}
 .btn-size, .btn-size > span{
-  font-size:1rem;
+  font-size:1.1rem;
+  color:#fff;
 }
 .btn-new, .btn-size > span{
   font-size:0.9rem;

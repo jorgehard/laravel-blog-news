@@ -13,6 +13,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet">
+        
+        <link rel="shortcut icon" href="{{ asset('assets/fenix-icon.ico')}}">
+        {{--  <link rel="icon" type="image/png" href="/path/to/icons/favicon-192x192.png" sizes="192x192">
+        <link rel="apple-touch-icon" sizes="180x180" href="/path/to/icons/apple-touch-icon-180x180.png">  --}}
         <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -86,6 +90,9 @@
         </div>
         </div>
         <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
+        @hasSection ('javascript')
+            @yield('javascript')
+        @endif
     </body>
 </html>
  

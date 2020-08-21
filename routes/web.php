@@ -22,5 +22,8 @@ Route::get('/', function () {
 Route::group(['prefix' => 'admin'], function () {
     Auth::routes();
     Route::get('/', 'HomeController@index')->name('home');
+    //Post
     Route::get('/categorias', 'CategoryController@index')->name('category');
+    Route::post('/categorias', 'CategoryController@store');
+    Route::delete('/categorias/{id}', 'CategoryController@destroy')->name('category-delete');
 });
